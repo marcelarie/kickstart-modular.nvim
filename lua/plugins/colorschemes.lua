@@ -7,7 +7,7 @@ return {
 	"mhartington/oceanic-next",
 	"fenetikm/falcon",
 	"katawful/kat.nvim",
-	"rebelot/kanagawa.nvim",
+	-- "rebelot/kanagawa.nvim", -- has own config in ./kanagawa.lua
 	"zootedb0t/citruszest.nvim",
 	"EdenEast/nightfox.nvim",
 	"shaeinst/roshnivim-cs",

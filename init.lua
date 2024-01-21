@@ -56,6 +56,12 @@ require "options"
 -- [[ Basic Keymaps ]]
 require "keymaps"
 
+-- [[ Autocommands ]]
+require "autocmd"
+
+-- [[ Colorscheme settings ]]
+require "color-settings"
+
 -- [[ Configure Treesitter ]]
 -- (syntax parser for highlighting)
 require "treesitter-setup"

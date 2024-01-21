@@ -38,6 +38,7 @@ return {
 			end,
 		},
 		"nvim-telescope/telescope-github.nvim",
+		"debugloop/telescope-undo.nvim",
 		"benfowler/telescope-luasnip.nvim",
 		"nvim-telescope/telescope-media-files.nvim",
 		"nvim-telescope/telescope-fzy-native.nvim",
@@ -201,6 +202,7 @@ return {
 		ts.load_extension "persisted"
 		ts.load_extension "http"
 		ts.load_extension "themes"
+		ts.load_extension "undo"
 
 		-- local M = {}
 		-- M.search_dotfiles = function()
@@ -233,6 +235,7 @@ return {
 		{ "<Leader>tb", ":Telescope buffers<cr>", desc = "Buffers" },
 		{ "<leader>rg", grep_string_prompt, desc = "Grep String" },
 		{ "<leader>as", ":Telescope AST_grep<cr>", desc = "AST Grep" },
+		{ "<leader>tu", ":Telescope undo<cr>", desc = "Telescope undo" },
 		{
 			"<leader>rw",
 			function()

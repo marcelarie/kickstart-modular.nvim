@@ -164,7 +164,6 @@ vim.keymap.set("c", "w!!", "SudaWrite<cr>", { noremap = false, silent = false })
 vim.keymap.set("n", "<Leader>q", ":q<cr>", opts)
 -- leader Q to quit!
 vim.keymap.set("n", "<Leader>Q", function()
-	vim.cmd("NvimTreeClose")
 	vim.cmd "qa!"
 end, opts)
 -- leader a to autoread current file
